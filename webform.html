@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Form Practice</title>
+</head>
+
+<h3>Complete all fields appropriately</h3>
+
+<form action="/handle-form-page" method="post">
+    <p>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="first_name" required />
+    </p>
+    <p>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="last_name" required />
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+    </p>
+    <p>
+        <label for="phonenumber">Phone Number:</label>
+        <input type="tel" id="phonenumber" name="phonenumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required />
+    </p>
+</form>
+
+<body>
+    
+</body>
+</html>
