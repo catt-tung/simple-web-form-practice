@@ -40,3 +40,8 @@ div.header-div {
     border: none;
     margin: 80px
 }
+
+input {
+    border-radius: 5px;
+    border: 1px solid gray;
+}
