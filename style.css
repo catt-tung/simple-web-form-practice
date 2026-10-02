@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+body {
+  font-family: 'Clarity City', sans-serif;
+  color: rgb(156, 32, 156);
+  font-weight: 500;
+  background-color: rgba(246, 246, 237, 0.502);
+}
+
+h3 {
+    color: palevioletred
+}
+
+h5 {
+    color: yellowgreen
+}
+
+button {
+    font-family: 'Clarity City', sans-serif;
+    font-weight: 200;
+    background-color: rgb(180, 221, 239);
+    border: 1.5px solid rgb(169, 195, 220);
+    border-radius: 7px;
+    cursor: pointor;
+}
