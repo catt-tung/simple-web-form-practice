@@ -6,3 +6,5 @@
 // validate phone number and format it
 // get the data into the requested format
 
+// lead data
+const formData = document.getElementById('form-for-lead')
